@@ -1,0 +1,19 @@
+.abcd{
+  width:100%;
+}
+.content{
+    background-color:rgb(126, 123, 123);
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    padding-top: 10px;
+  }
+  .UpdateForm{
+    display: grid;
+    justify-content: left;
+    height: 5rem;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+    

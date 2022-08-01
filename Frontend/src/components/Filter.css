@@ -1,0 +1,48 @@
+.fbYear{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+.lbl{
+    margin: 5px 0 0 5px;
+    color: white;
+    font-size: 20px;
+}
+select{
+    width: 30%;
+    height: 30px;
+    margin-left: 330px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media(max-width:1300px){
+    select{
+        width: 30%;
+        margin-left: 250px;  
+    }
+ }
+ @media(max-width:1000px){
+    select{
+        width: 30%;
+        margin-left: 150px;  
+    }
+ }
+ @media(max-width:600px){
+    select{
+        width: 40%;
+        margin-left: 80px;  
+    }
+ }
+
+@media(max-width:550px){
+    .lbl{
+        font-size: 15px;
+    }
+    select{
+        width: 50%;
+        margin-left: 80px;  
+    }
+ }

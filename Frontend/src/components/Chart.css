@@ -1,0 +1,14 @@
+.Barcolor{
+    background-color: rgb(198 141 228);
+    width: 95%;
+    width:95%;
+    margin-left: 20px;
+    height: 140px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+@media (max-width:550px){
+    .Barcolor{
+        margin-left: 10px;
+    }
+}
